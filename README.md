@@ -14,7 +14,10 @@ The project writes the records to a .csv file that is saved locally.
 
 it's also making a logging file that documents the success/failure events and the timestamp.
 
-# Usage
+# Usage:
 ```hcl
-./main_menu sample.csv 
+git clone https://github.com/JenniaGo/Linux_Project_Record_Shop.git
+cd Linux_Project_Record_Shop
+chmod +x main_menu.sh
+./main_menu.sh sample.csv 
 ```
